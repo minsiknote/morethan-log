@@ -56,7 +56,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "https://joey.team/block/?id=pQx35wY2kZPZStwDUnAJ7rPZ9Lc2&block_id=SZRKLy9HalVsmubkflCx",
+      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "morethanmain/morethan-log",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
