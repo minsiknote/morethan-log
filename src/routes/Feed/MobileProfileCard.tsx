@@ -13,15 +13,16 @@ const MobileProfileCard: React.FC<Props> = () => {
       <div className="top">💻 Profile</div>
       <div className="mid">
         <div className="wrapper">
+          <div className="wrapper">
             <div className="top">{CONFIG.profile.name}</div>
             <div className="mid">{CONFIG.profile.role}</div>
             <div className="btm">{CONFIG.profile.bio}</div>
+          </div>
         </div>
       </div>
     </StyledWrapper>
   )
 }
-
 export default MobileProfileCard
 
 const StyledWrapper = styled.div`
