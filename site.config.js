@@ -10,7 +10,13 @@ const CONFIG = {
     github: "minsiknote",
     instagram: "",
   },
-  
+  projects: [
+    {
+      enable: false,
+      name: ``,
+      href: "",
+    },
+  ],
   // blog setting (required)
   blog: {
     title: "MS Note",
