@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "LeeMinSik",
-    image: "", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Game Developer",
     bio: "",
     email: "leeminsiks79@gmail.com",
@@ -10,12 +10,7 @@ const CONFIG = {
     github: "minsiknote",
     instagram: "",
   },
-  projects: [
-    {
-      name: ``,
-      href: "",
-    },
-  ],
+  
   // blog setting (required)
   blog: {
     title: "MS Note",
