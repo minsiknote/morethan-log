@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "LeeMinSik",
-    image: false, // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Game Developer",
     bio: "",
     email: "leeminsiks79@gmail.com",
@@ -12,9 +12,8 @@ const CONFIG = {
   },
   projects: [
     {
-      enable: false,
-      name: `morethan-log`,
-      href: "https://github.com/minsiknote/morethan-log",
+      name: ``,
+      href: "",
     },
   ],
   // blog setting (required)
