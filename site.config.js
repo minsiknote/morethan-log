@@ -1,7 +1,7 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "LeeMinSik",
+    name: "이민식",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Game Developer",
     bio: "",
@@ -12,7 +12,6 @@ const CONFIG = {
   },
   projects: [
     {
-      enable: false,
       name: ``,
       href: "",
     },
@@ -55,7 +54,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
