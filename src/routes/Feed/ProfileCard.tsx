@@ -13,7 +13,7 @@ const ProfileCard: React.FC<Props> = () => {
         <Emoji>💻</Emoji> Profile
       </div>
       <div className="content">
-        <div className="top">
+        <div className="mid">
           <div className=" name">{CONFIG.profile.name}</div>
           <div className="role">{CONFIG.profile.role}</div>
           <div className="text-sm mb-2">{CONFIG.profile.bio}</div>
